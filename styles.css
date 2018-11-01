@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.content{
+    overflow: hidden;
+    max-height: 150px;
+    object-fit: cover;
+    margin: 2px;
+}
+
+.tab{
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.icons{
+    position: absolute;
+    bottom: 1.5em;
+}
+
+.icon{
+    height: 2em;
+    width: 2em;
+}
+
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 0px;
+}
+.subtitle{
+    font-size: 1em;
+    margin: 0px;
+    font-family: monospace;
+}
+
+.preview{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -250px;
+    z-index: -10;
+}
