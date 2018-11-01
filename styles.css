@@ -4,47 +4,50 @@ body {
 }
 
 .container {
-    display: flex;
     justify-content: center;
     width: 80%;
     max-width: 1000px;
-    min-width: 600px;
+    min-width: 300px;
     margin: 0 auto;
 }
 
 .content{
     overflow: hidden;
-    max-height: 150px;
     object-fit: cover;
     margin: 2px;
+    height: 150px;
 }
 
 .tab{
-    background-color: whitesmoke;
+    background-color: black;
     padding: 10px;
-    height: 100%;
     display: inline-block;
-    position: relative;
-    float: left;
+    position: absolute;
+    height: 130px;
 }
 
 .icons{
     position: absolute;
-    bottom: 1.5em;
+    bottom: 0.5em;
 }
 
 .icon{
     height: 2em;
     width: 2em;
+    background-color: white;
+    border-radius: 3px;
 }
 
 .title{
+    color: white;
     font-size: 2em;
     font-weight: bold;
     font-family: monospace;
     margin: 0px;
 }
+
 .subtitle{
+    color:darkgray;
     font-size: 1em;
     margin: 0px;
     font-family: monospace;
@@ -52,9 +55,9 @@ body {
 
 .preview{
     max-width: 100%;
-    display: block;
-    margin: 0 auto;
+    width: 100%;
+    min-width: 600px;
+    display: inline-block;
     position: relative;
-    top: -250px;
     z-index: -10;
 }
