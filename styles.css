@@ -1,6 +1,6 @@
 body {
-    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    background: #222;
 }
 
 .container {
@@ -10,39 +10,65 @@ body {
     margin: 0 auto;
 }
 
+.info{
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    z-index: 10;
+}
+
 .content{
+    display: block;
     overflow: hidden;
     object-fit: cover;
-    margin: 2px;
-    height: 150px;
+    margin:4px;
+    height: 110px;
 }
 
 .tab{
-    background-color: black;
-    padding: 10px;
-    display: inline-block;
     position: absolute;
-    height: 130px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: inherit;
+    display: inline-block;
+    z-index: 1;
+}
+
+.tabBackground{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .icons{
     position: absolute;
-    bottom: 0.5em;
+    bottom: 0;
 }
 
 .icon{
-    height: 2em;
-    width: 2em;
+    height: 26px;
+    width: 26px;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .title{
     color: white;
     font-size: 1.4em;
+    background-color: red;
+    width: 100%;
     font-weight: bold;
     font-family: monospace;
+    display: inline-block;
     margin: 0px;
+    padding-left: 2px;
 }
 
 .subtitle{
@@ -53,10 +79,7 @@ body {
 }
 
 .preview{
-    max-width: 100%;
     width: 100%;
-    min-width: 600px;
     display: inline-block;
     position: relative;
-    z-index: -10;
 }
