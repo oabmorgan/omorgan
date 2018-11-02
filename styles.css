@@ -59,6 +59,10 @@ body {
     padding: 2px;
 }
 
+#filter{
+    color: yellowgreen;
+}
+
 .title{
     color: white;
     font-size: 1.4em;
