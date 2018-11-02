@@ -4,9 +4,7 @@ body {
 }
 
 .container {
-    justify-content: center;
     max-width: 1000px;
-    min-width: 300px;
     margin: 0 auto;
 }
 
@@ -23,7 +21,7 @@ body {
     overflow: hidden;
     object-fit: cover;
     margin:4px;
-    height: 110px;
+    height: 110px;    
 }
 
 .tab{
@@ -82,8 +80,13 @@ body {
     font-family: monospace;
 }
 
-.preview{
-    height: 100%;
+.imageholder{
     display: inline-block;
     position: relative;
+    right: -50%;
+}
+
+.preview{
+    position: relative;
+    left: -50%;
 }
