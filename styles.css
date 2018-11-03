@@ -17,7 +17,7 @@ body {
     margin-bottom: 10px;
     height: 110px;
     border: 1px solid #333;
-    border-radius: 5;
+    border-radius: 5px;
 }
 
 .tab{
@@ -58,7 +58,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    background: #222;
+    background: #252525;
     font-size: 0.8em;
     color: #777;
     font-weight: bold;
