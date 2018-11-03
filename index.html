@@ -9,6 +9,17 @@
 
 
 <body onload="settings()">
+    <div id='header'>
+        <div id='pagetitle'>Oliver Morgan</div>
+        <div id='contactinfo'>contact@omorgan.net</div>
+        <div id='contactinfo'>(080) 2824 0035</div>
+        <div id='filters'>show: 
+            <a id='nofilter' onclick="runFilter('')" href="javascript:void(0);">all</a> |
+            <a id='artfilter' onclick="runFilter('art')" href="javascript:void(0);">art</a> |
+            <a id='progfilter' onclick="runFilter('programming')" href="javascript:void(0);">programming</a> |
+            <a id='gamefilter' onclick="runFilter('game')" href="javascript:void(0);">games</a>
+        </div>
+    </div>
     <div class="container">
         <a id="handheld" class="content" title="Custom Handheld" href="handheld">
             <div class="tab">
@@ -134,10 +145,6 @@
             <img class="preview" src="Images/Previews/blockade.jpg">
                 </div>
          </a>
-        
-        
-        <div id='filter'></div>
-    </div>
-    
+    </div>    
     <script type="text/javascript" src="scripts.js"></script>
 </body>
