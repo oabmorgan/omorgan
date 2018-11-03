@@ -6,7 +6,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .content{
@@ -66,8 +66,8 @@ body {
     color: white;
     display: inline-block;
     text-align: left;
-    font-size: 2em;
-    padding-right: 20px;
+    font-size: 2.2em;
+    font-family: monospace;
 }
 
 #contactinfo{
@@ -75,14 +75,16 @@ body {
     background: red;
     display: inline-block;
     text-align: left;
-    font-size: 1em;
+    font-size: 1.5em;
     padding-right: 4px;
+    font-family: monospace;
 }
 
 #filters{
     display: inline-block;
     text-align: right;
     float: right;
+    font-family: monospace;
 }
 
 a{

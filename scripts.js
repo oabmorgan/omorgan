@@ -17,23 +17,23 @@ function runFilter(filter){
             }
         }
     if(!filter){
-        document.getElementById("nofilter").style.color = '#fff';
+        document.getElementById("nofilter").style.color = 'darkgray';
     } else{
-        document.getElementById("nofilter").style.color = '#666';
+        document.getElementById("nofilter").style.color = '#555';
     }
     if(filter == "art"){
-        document.getElementById("artfilter").style.color = '#fff';
+        document.getElementById("artfilter").style.color = 'darkgray';
     } else{
-        document.getElementById("artfilter").style.color = '#666';
+        document.getElementById("artfilter").style.color = '#555';
     }
     if(filter == "programming"){
-        document.getElementById("progfilter").style.color = '#fff';
+        document.getElementById("progfilter").style.color = 'darkgray';
     } else{
-        document.getElementById("progfilter").style.color = '#666';
+        document.getElementById("progfilter").style.color = '#555';
     }
     if(filter == "game"){
-        document.getElementById("gamefilter").style.color = '#fff';
+        document.getElementById("gamefilter").style.color = 'darkgray';
     } else{
-        document.getElementById("gamefilter").style.color = '#666';
+        document.getElementById("gamefilter").style.color = '#555';
     }
 }
